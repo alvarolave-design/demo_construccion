@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMA 138 - AEROVIAS DAP</title>
+    <style>
+        :root {
+            --bg-dark: #0a1128;
+            --card-bg: #1c2541;
+            --accent-blue: #00b4d8;
+            --text-light: #f4f5f7;
+            --text-muted: #90e0ef;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #111e38 100%);
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 650px;
+            padding: 40px;
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-top: 4px solid var(--accent-blue);
+        }
+
+        /* Contenedor del logotipo optimizado para la imagen de DAP */
+        .logo-container {
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-img {
+            max-width: 220px;
+            height: auto;
+            display: block;
+            /* Filtro de sombra sutil para dar profundidad al logo blanco en el fondo oscuro */
+            filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .badge {
+            background-color: rgba(0, 180, 216, 0.1);
+            border: 1px solid var(--accent-blue);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-info {
+            font-size: 0.95rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+        }
+
+        .contact-info a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Espacio del Logotipo Oficial de DAP -->
+        <div class="logo-container">
+            <img class="logo-img" src="https://dapairline.com/wp-content/uploads/2026/02/logo-dap-sello-45.png"
+                alt="Logotipo DAP 45 Años">
+        </div>
+
+        <h1>Sistemas CMA 138</h1>
+        <p>Estamos desplegado nuestro sistema. Estará disponible muy pronto.</p>
+
+    </div>
+
+</body>
+
+</html>
